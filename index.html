@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>BRB - SUPERA</title>
+
+  <!-- Custom fonts for this template-->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+  <!-- Custom styles for this template-->
+  <link href="css/sb-admin-2.min.css" rel="stylesheet">
+  <link href="css/custom.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <!-- Page Wrapper -->
+  <div id="wrapper">
+
+    <!-- Sidebar -->
+    <ul class="navbar-nav g_bg_menu_esquerdo sidebar sidebar-dark accordion" id="accordionSidebar">
+
+      <!-- Sidebar - Brand -->
+      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+        <div class="sidebar-brand-icon">          
+          <img src="img/logo_brb_branco.png" style="width:100px">        
+        </div>        
+      </a>
+
+      <!-- Divider -->
+      <hr class="sidebar-divider my-0">
+
+      <!-- Nav Item - Dashboard -->
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">
+          <i class="fas fa-fw fa-home"></i>
+          <span>Inicio</span></a>
+      </li>
+
+      <!-- Divider -->
+      <hr class="sidebar-divider">
+
+      <!-- Heading -->
+      <div class="sidebar-heading">
+        Navegação
+      </div>
+
+      <!-- Nav Item - Pages Collapse Menu -->
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+          <i class="fas fa-fw fa-calendar"></i>
+          <span>Períodos</span>
+        </a>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Selecione o período:</h6>
+            <a class="collapse-item" href="buttons.html">4º tri /2019</a>
+            <a class="collapse-item" href="cards.html">1º sem /2020</a>
+          </div>
+        </div>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+          <i class="fas fa-fw fa-wallet"></i>
+          <span>Carteiras</span>
+        </a>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Selecione o período:</h6>
+            <a class="collapse-item" href="buttons.html">4º tri /2019</a>
+            <a class="collapse-item" href="cards.html">1º sem /2020</a>
+          </div>
+        </div>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+          <i class="fas fa-fw fa-suitcase"></i>
+          <span>Gerentes</span>
+        </a>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Selecione o período:</h6>
+            <a class="collapse-item" href="buttons.html">4º tri /2019</a>
+            <a class="collapse-item" href="cards.html">1º sem /2020</a>
+          </div>
+        </div>
+      </li>
+
+      
+      <!-- Divider -->
+      <hr class="sidebar-divider">
+
+      <!-- Heading -->
+      <div class="sidebar-heading">
+        Trocar data de referência
+      </div>
+
+      <!-- Nav Item - Pages Collapse Menu -->
+      <li class="nav-item">
+        <span class="nav-link " href="#"  aria-expanded="true" aria-controls="collapsePages">
+          <input class="white_place menu_input" placeholder="Digite a data" style="background: transparent !important; border: 0px !important; border-bottom: 1px solid #CCC !important; outline: 0 !important; color: white !important;" />
+        </span>        
+      </li>
+
+      <!-- Divider -->
+      <hr class="sidebar-divider">
+
+      <!-- Heading -->
+      <div class="sidebar-heading">
+        Trocar Agência
+      </div>
+
+      <!-- Nav Item - Pages Collapse Menu -->
+      <li class="nav-item">
+        <span class="nav-link " href="#"  aria-expanded="true" aria-controls="collapsePages">
+          <input class="menu_input white_place " placeholder="Digite a agência" style="background: transparent !important; border: 0px !important; border-bottom: 1px solid #CCC !important; outline: 0 !important; color: white !important;" />
+        </span>        
+      </li>
+
+      <!-- Divider -->
+      <hr class="sidebar-divider d-none d-md-block">
+
+      <!-- Sidebar Toggler (Sidebar) -->
+      <!-- <div class="text-center d-none d-md-inline">
+        <button class="rounded-circle border-0" id="sidebarToggle"></button>
+      </div> -->
+
+    </ul>
+    <!-- End of Sidebar -->
+
+    <!-- Content Wrapper -->
+    <div id="content-wrapper" class="d-flex flex-column">
+
+      <!-- Main Content -->
+      <div id="content">
+
+        <!-- Topbar -->
+        <nav class="navbar navbar-expand navbar-light g_bg_menu_topo topbar mb-4 static-top shadow">
+
+          <!-- Topbar Search -->
+          <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search" style="display: none !important">
+            <div class="input-group">
+              <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
+              <div class="input-group-append">
+                <button class="btn btn-primary" type="button">
+                  <i class="fas fa-search fa-sm"></i>
+                </button>
+              </div>
+            </div>
+          </form>
+
+          <!-- Center Logo -->
+          <div class="ml-auto"><span class="text-white h1">s<span class="text-primary">UP</span>era <span class="text-primary">:)</span></span></div>
+
+          <!-- Topbar Navbar -->
+          <ul class="navbar-nav ml-auto text-white">
+
+            <!-- Nav Item - Search Dropdown (Visible Only XS) -->
+            <!-- <li class="nav-item dropdown no-arrow d-sm-none">
+              <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-search fa-fw"></i>
+              </a> -->
+              <!-- Dropdown - Messages -->
+              <!-- <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in" aria-labelledby="searchDropdown">
+                <form class="form-inline mr-auto w-100 navbar-search">
+                  <div class="input-group">
+                    <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                      <button class="btn btn-primary" type="button">
+                        <i class="fas fa-search fa-sm"></i>
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </li> -->
+
+            <!-- Nav Item - Alerts -->
+            <li class="nav-item dropdown no-arrow mx-1">
+              <a class="nav-link dropdown-toggle" href="#" title="Carteiras da Agência" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-print fa-fw text-white"></i>
+                <!-- Counter - Alerts -->
+                <!-- <span class="badge badge-danger badge-counter">3+</span> -->
+              </a>              
+            </li>
+
+            <!-- Nav Item - Messages -->
+            <li class="nav-item dropdown no-arrow mx-1">
+              <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-file-pdf fa-fw text-white"></i>
+                <!-- Counter - Messages -->
+                <!-- <span class="badge badge-danger badge-counter">7</span> -->
+              </a>              
+            </li>
+
+            <!-- Nav Item - Messages -->
+            <li class="nav-item dropdown no-arrow mx-1">
+              <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-calendar-alt fa-fw text-white"></i>
+                <!-- Counter - Messages -->
+                <!-- <span class="badge badge-danger badge-counter">7</span> -->
+              </a>              
+            </li>
+
+            <div class="topbar-divider d-none d-sm-block text-white"></div>
+
+            <!-- Nav Item - User Information -->
+            <li class="nav-item dropdown no-arrow">
+              <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="mr-2 d-none d-lg-inline text-white small">SERGIO PAULO DE ALMEIDA SANTOS</span>                
+              </a>
+              <!-- Dropdown - User Information -->
+              <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
+                <a class="dropdown-item" href="#">
+                  <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                  Profile
+                </a>
+                <a class="dropdown-item" href="#">
+                  <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
+                  Settings
+                </a>
+                <a class="dropdown-item" href="#">
+                  <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
+                  Activity Log
+                </a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                  <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                  Logout
+                </a>
+              </div>
+            </li>
+
+          </ul>
+
+          <!-- Sidebar Toggle (Topbar) -->
+          <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+            <i class="fa fa-bars"></i>
+          </button>
+
+        </nav>
+        <!-- End of Topbar -->
+
+        <!-- Begin Page Content -->
+        <div class="container-fluid">
+
+          <!-- Page Heading -->
+          <div class="d-sm-flex align-items-center justify-content-between mb-4">
+            <span class="h3 mb-0 text-gray-800">252: Ag. Taguatinga Shopping</span>
+            
+            <span class="h3 mb-0 text-gray-800">31/12/2019 <span class="small badge badge-info" style="font-size: 0.8rem; vertical-align: top">4º tri / 2019</span></span>            
+          </div>
+
+          
+          <!-- Color System -->
+              <div class="row">
+                <div class="col-lg-4 mb-4">
+                  <div class="card g_bg_primary text-white shadow">
+                    <div class="card-body">
+                      <h4>Pontuação Total <span class="float-right">113,29 <br> +3,07</span></h4>                      
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                  <div class="card g_bg_primary text-white shadow">
+                    <div class="card-body">
+                      <h4>Produção de Resultado <span class="float-right">101,70 <br> +3,20</span></h4>                      
+                    </div>
+                  </div>
+                </div>                
+                <div class="col-lg-4 mb-4">
+                  <div class="card g_bg_warning text-white shadow">
+                    <div class="card-body">
+                      <h4>Gestão do Negócio <span class="float-right">11,59 <br> -0,13</span></h4>                      
+                    </div>
+                  </div>
+                </div>                
+              </div>
+
+          <!-- Content Row -->
+          <div class="row">
+
+            <!-- Content Column -->
+            <div class="col-lg-6 mb-4">
+
+              <!-- Project Card Example -->
+              <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                  <h6 class="m-0 font-weight-bold text-primary">Eixos</h6>
+                </div>
+                <div class="card-body">
+                  <h4 class="small font-weight-bold">Negócios <span class="small text-gray-700">67,53 / 64,00</span><span class="float-right">105,52%</span></h4>
+                  <div class="progress mb-4">
+                    <div class="progress-bar g_bg_primary" role="progressbar" style="width: 105%" aria-valuenow="105" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>                  
+                  <h4 class="small font-weight-bold">Adimplêmcia <span class="small text-gray-700">13,11 / 13,00</span><span class="float-right">100,86%</span></h4>
+                  <div class="progress mb-4">
+                    <div class="progress-bar g_bg_primary" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <h4 class="small font-weight-bold">Resultado <span class="small text-gray-700">10,65 / 16,00</span><span class="float-right">66,59%</span></h4>
+                  <div class="progress mb-4">
+                    <div class="progress-bar g_bg_danger" role="progressbar" style="width: 66%" aria-valuenow="66" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <h4 class="small font-weight-bold">Relacionamento <span class="small text-gray-700">7,20 / 7,00</span><span class="float-right">102,80%</span></h4>
+                  <div class="progress mb-4">
+                    <div class="progress-bar g_bg_primary" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <h4 class="small font-weight-bold">Controle <span class="small text-gray-700">0,00 / 0,00</span><span class="float-right">0%</span></h4>
+                  <div class="progress mb-4">
+                    <div class="progress-bar g_bg_danger" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>                  
+                  <h4 class="small font-weight-bold">Gestão <span class="small text-gray-700">11,73 / 13,00</span><span class="float-right">90,19%</span></h4>
+                  <div class="progress">
+                    <div class="progress-bar g_bg_success" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+              </div>
+
+              
+
+            </div>
+
+            <!-- Area Chart -->
+            <div class="col-xl-6 col-lg-7">
+              <div class="card shadow mb-4">
+                <!-- Card Header - Dropdown -->
+                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                  <h6 class="m-0 font-weight-bold text-primary">Pontuação total dos últimos 7 dias</h6>
+                  <div class="dropdown no-arrow">
+                    <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
+                      <div class="dropdown-header">Dropdown Header:</div>
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card Body -->
+                <div class="card-body">
+                  <div class="chart-area">
+                    <canvas id="myAreaChart"></canvas>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+
+            
+          
+
+          <!-- Content Row -->
+          <div class="row">
+
+            <div class="col-lg-6 mb-4">
+              <!-- Carteiras -->
+              <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                  <h6 class="m-0 font-weight-bold text-primary">Carteiras da Agência</h6>
+                </div>
+                <div class="card-body">
+                  <ul>
+                    <li><a href="JavaScript:void(0)">Millenium PF</a></li>
+                    <li><a href="JavaScript:void(0)">Mista PF</a></li>
+                    <li><a href="JavaScript:void(0)">Mista PJ</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 mb-4">
+              <!-- Gerentes -->
+              <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                  <h6 class="m-0 font-weight-bold text-primary">Gerentes da Agência</h6>
+                </div>
+                <div class="card-body">
+                  <ul>
+                    <li><a href="JavaScript:void(0)">Fernando Fernandes</a></li>
+                    <li><a href="JavaScript:void(0)">João Joarez</a></li>
+                    <li><a href="JavaScript:void(0)">Iza Isabel</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            
+          </div>
+
+          <!-- Content Row -->
+  
+          <div class="row">
+            <div class="col-lg-12 mb-4">              
+              <div class="d-sm-flex align-items-center justify-content-between mb-4 border-bottom-info">
+                <span class="h2 mb-0 text-gray-800">Negócios</span>                
+                <span class="h2 mb-0 text-gray-800">70,83 / 64,00 <span class="small badge badge-primary" style="font-size: 0.8rem; vertical-align: top">110,67%</span></span>            
+              </div>
+
+              <div class="d-sm-flex align-items-center justify-content-between mb-4 ml-4 border-bottom-info">
+                <span class="h3 mb-0 text-gray-800">Crédito</span>                
+                <span class="h3 mb-0 text-gray-800">38,42 / 31,00 <span class="small badge badge-primary" style="font-size: 0.8rem; vertical-align: top; visibility: hidden;">110,67%</span></span>
+              </div>
+
+              <div class="d-sm-flex align-items-center justify-content-between mb-4 ml-6 border-bottom-info">
+                <span class="h4 mb-0 text-gray-800">Comercial PF</span>                
+                <span class="h4 mb-0 text-gray-800">19,55 / 14,39 <span class="small badge badge-primary" style="font-size: 0.8rem; vertical-align: top; visibility: hidden;">110,67%</span></span>
+              </div>
+
+              <div class="ml-7 row">
+                <!-- Card Indicador -->
+                <div class="col-xl-3 col-md-6 mb-4">
+                  <div class="card border-left-primary shadow h-100">
+                    <div class="card-body" style="padding: 0.95rem !important;">
+                      <div class="row no-gutters align-items-center">
+                        <div class="col ">
+                          <div class="font-weight-bold text-primary text-uppercase mb-1">Consignado</div>
+                          <div class="h5 mb-0 font-weight-bold text-gray-800">11,63 / 7,75</div>
+                        </div>
+                        <div class="col-auto">
+                          <strong>R</strong> 10.322.428 <br>
+                          <strong>M</strong> 5.894.110 <br>
+                          <strong>A</strong> 150,00% <br>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card Indicador -->
+                <div class="col-xl-3 col-md-6 mb-4">
+                  <div class="card border-left-primary shadow h-100">
+                    <div class="card-body" style="padding: 0.95rem !important;">
+                      <div class="row no-gutters align-items-center">
+                        <div class="col ">
+                          <div class="font-weight-bold text-primary text-uppercase mb-1">Parcelado</div>
+                          <div class="h5 mb-0 font-weight-bold text-gray-800">11,63 / 7,75</div>
+                        </div>
+                        <div class="col-auto">
+                          <strong>R</strong> 10.322.428 <br>
+                          <strong>M</strong> 5.894.110 <br>
+                          <strong>A</strong> 150,00% <br>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card Indicador -->
+                <div class="col-xl-3 col-md-6 mb-4">
+                  <div class="card border-left-primary shadow h-100">
+                    <div class="card-body" style="padding: 0.95rem !important;">
+                      <div class="row no-gutters align-items-center">
+                        <div class="col ">
+                          <div class="font-weight-bold text-primary text-uppercase mb-1">Outros</div>
+                          <div class="h5 mb-0 font-weight-bold text-gray-800">11,63 / 7,75</div>
+                        </div>
+                        <div class="col-auto">
+                          <strong>R</strong> 10.322.428 <br>
+                          <strong>M</strong> 5.894.110 <br>
+                          <strong>A</strong> 150,00% <br>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                  
+                  <!--main-->
+                    <!-- pricing plans -->
+                    <div class="pricing">
+                      <div class="w3l-pricing-grids">
+                        <div class="agileits-pricing-grid first">
+                          <div class="pricing_grid">
+                            <div class="wthree-pricing-info pricing-top blue-top">
+                              <h3>Consignado</h3>
+                              <p><span>11,63</span>/7,75</p>
+                            </div>
+                            <div class="pricing-bottom">
+                              <div class="pricing-bottom-bottom">
+                                <p><span class="fas fa-times"></span><span>Realizado</span> 10.322.428</p>
+                                <p><span class="fas fa-times"></span><span>Meta </span> 5.894.110</p>
+                                <p><span class="fas fa-times"></span><span>Atingido </span> 150,00%</p>                                  
+                              </div>                              
+                            </div>
+                          </div>
+                        </div>
+                        <div class="agileits-pricing-grid second">
+                          <div class="pricing_grid">
+                            <div class="wthree-pricing-info pricing-top blue-top">
+                              <h3>Popular</h3>
+                              <p>$<span>20</span>/month</p>
+                            </div>
+                            <div class="pricing-bottom">
+                              <div class="pricing-bottom-bottom blue-pricing-bottom-top">
+                                <p><span class="fas fa-check"></span><span>Training</span> Overview</p>
+                                <p><span class="fas fa-check"></span><span>Beginner </span> Classes</p>
+                                <p><span class="fas fa-times"></span><span>Personal </span> Training</p>  
+                                <p><span class="fas fa-times"></span><span>Olympic </span> weightlifting</p>
+                                <p class="text"><span class="fa fa-times"></span><span>Foundation</span> Training</p>
+                              </div>
+                              <div class="buy-button">
+                                <a class="popup-with-zoom-anim" href="#small-dialog">Buy Now</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="agileits-pricing-grid third">
+                          <div class="pricing_grid">
+                            <div class="wthree-pricing-info pricing-top green-top">
+                              <h3>Golden</h3>
+                              <p>$<span>35</span>/month</p>
+                            </div>
+                            <div class="pricing-bottom">
+                              <div class="pricing-bottom-bottom green-pricing-bottom-top">
+                                <p><span class="fa fa-check"></span><span>Training</span> Overview</p>
+                                <p><span class="fa fa-check"></span><span>Beginner </span> Classes</p>
+                                <p><span class="fa fa-check"></span><span>Personal </span> Training</p>  
+                                <p><span class="fa fa-times"></span><span>Olympic </span> weightlifting</p>
+                                <p class="text"><span class="fa fa-times"></span><span>Foundation</span> Training</p>
+                              </div>
+                              <div class="buy-button">
+                                <a class="popup-with-zoom-anim" href="#small-dialog">Buy Now</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        
+                        <div class="agileits-pricing-grid fourth">
+                          <div class="pricing_grid">
+                            <div class="wthree-pricing-info pricing-top yellow-top">
+                              <h3>Professional</h3>
+                              <p>$<span>50</span>/month</p>
+                            </div>
+                            <div class="pricing-bottom">
+                              <div class="pricing-bottom-bottom yellow-pricing-bottom-top">
+                                <p><span class="fa fa-check"></span><span>Training</span> Overview</p>
+                                <p><span class="fa fa-check"></span><span>Beginner </span> Classes</p>
+                                <p><span class="fa fa-check"></span><span>Personal </span> Training</p>  
+                                <p><span class="fa fa-check"></span><span>Olympic </span> weightlifting</p>
+                                <p class="text"><span class="fa fa-check"></span><span>Foundation</span> Training</p>
+                              </div>
+                              <div class="buy-button">
+                                <a class="popup-with-zoom-anim" href="#small-dialog">Buy Now</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+            </div>              
+          </div>
+
+          
+
+        </div>
+        <!-- /.container-fluid -->
+
+      </div>
+      <!-- End of Main Content -->
+
+      <!-- Footer -->
+      <footer class="sticky-footer bg-white">
+        <div class="container my-auto">
+          <div class="copyright text-center my-auto">
+            <span>Copyright &copy; BRB - DITEC 2020</span>
+          </div>
+        </div>
+      </footer>
+      <!-- End of Footer -->
+
+    </div>
+    <!-- End of Content Wrapper -->
+
+  </div>
+  <!-- End of Page Wrapper -->
+
+  <!-- Scroll to Top Button-->
+  <a class="scroll-to-top rounded" href="#page-top">
+    <i class="fas fa-angle-up"></i>
+  </a>
+
+  <!-- Logout Modal-->
+  <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+          <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+          <a class="btn btn-primary" href="login.html">Logout</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap core JavaScript-->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Core plugin JavaScript-->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for all pages-->
+  <script src="js/sb-admin-2.min.js"></script>
+
+  <!-- Page level plugins -->
+  <script src="vendor/chart.js/Chart.min.js"></script>
+
+  <!-- Page level custom scripts -->
+  <script src="js/demo/chart-area-demo.js"></script>
+  <script src="js/demo/chart-pie-demo.js"></script>
+
+</body>
+
+</html>
