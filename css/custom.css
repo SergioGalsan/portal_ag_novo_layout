@@ -1,9 +1,11 @@
 .g_bg_menu_esquerdo {
-  background: linear-gradient(0deg, rgba(116,191,2,1) 2%, rgba(116,191,2,1) 51%, rgba(0,167,203,1) 100%)!important;
+   background: linear-gradient(0deg, rgba(116,191,2,1) 2%, rgba(116,191,2,1) 51%, rgba(0,167,203,1) 100%)!important; 
+   /*background: linear-gradient(0deg, rgba(116,191,2,1) 0%, rgba(84,140,137,1) 52%, rgba(33,124,171,1) 100%);*/
 }
 
 .g_bg_menu_topo {
   background: linear-gradient(275deg, rgba(116,191,2,1) 0%, rgba(116,191,2,1) 24%, rgba(0,167,203,1) 100%)!important;
+  /*background: linear-gradient(275deg, rgba(116,191,2,1) 0%, rgba(84,140,137,1) 52%, rgba(33,124,171,1) 100%);*/
 }
 
 .g_bg_primary {
@@ -80,7 +82,7 @@
 
 
 
-
+/*
 table {
   background: #012B39 !important;
   border-radius: 0.25em !important;

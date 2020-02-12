@@ -402,8 +402,10 @@
             
           </div>
 
-          <!-- Content Row -->
-  
+          
+
+            
+          <!-- Content Row -->  
           <div class="row">
             <div class="col-lg-12 mb-4">              
               <div class="d-sm-flex align-items-center justify-content-between mb-4 border-bottom-info">
@@ -422,6 +424,75 @@
               </div>
 
               <div class="ml-7 row">
+
+                <table class="table table-hover" style="font-size: 1.2rem; background-color: #FFF /* E6E8E8 */;">
+                  <thead>
+                    <tr>
+                      <th scope="col">Indicador</th>
+                      <th scope="col">Realizado</th>
+                      <th scope="col">Meta</th>
+                      <th scope="col">Atingido</th>
+                      <th scope="col">Pontuação</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row" class="text-primary">Consignado</th>
+                      <td>4.223.391</td>
+                      <td>1.617.724</td>
+                      <td>150,00%</td>
+                      <td>11,63 / 7,75</td>
+                    </tr>
+                    <tr>
+                      <th scope="row" class="text-warning">Parcelado</th>
+                      <td>564.713</td>
+                      <td>492.512</td>
+                      <td>114,66%</td>
+                      <td>6,35 / 5,54</td>
+                    </tr>
+                    <tr>
+                      <th scope="row" class="text-success">Outros</th>
+                      <td>808.591</td>
+                      <td>691.106</td>
+                      <td>117,00%</td>
+                      <td>1,30 / 1,11</td>
+                    </tr>
+                  </tbody>
+                </table>
+                
+                <style type="text/css">
+                  .card_round {
+                    height: 175px;
+                    width: 175px;
+                    background-color: #FFF;
+                    border-radius: 50%;
+                    border: .25rem solid #4e73df!important;
+                    display: inline-block;
+                    text-align: center;
+                    padding-top: 50px;  
+                    margin-right: 20px;                  
+                  }
+                  .cr_title{
+                    margin-top: 85px;
+                    font-weight: 700!important;
+                    font-size: 1.3rem;
+                  }
+                  .cr_content_top{
+                    font-size: 1.2rem;
+                  }
+                </style>
+
+                <div class="card_round">
+                  <span class="cr_content_top">11,63 / 11,50</span>
+                  <span class="cr_title">Consignado</span>                  
+                </div>
+
+                <div class="card_round" style="border: .25rem solid #f6c23e!important;">
+                  <span class="cr_content_top">6,63 / 7,75</span>
+                  <span class="cr_title">Parcelado</span>                  
+                </div>
+
+
                 <!-- Card Indicador -->
                 <div class="col-xl-3 col-md-6 mb-4">
                   <div class="card border-left-primary shadow h-100">
@@ -442,7 +513,7 @@
                 </div>
                 <!-- Card Indicador -->
                 <div class="col-xl-3 col-md-6 mb-4">
-                  <div class="card border-left-primary shadow h-100">
+                  <div class="card border-left-success shadow h-100">
                     <div class="card-body" style="padding: 0.95rem !important;">
                       <div class="row no-gutters align-items-center">
                         <div class="col ">
@@ -457,113 +528,112 @@
                       </div>
                     </div>
                   </div>
-                </div>
-                <!-- Card Indicador -->
-                <div class="col-xl-3 col-md-6 mb-4">
-                  <div class="card border-left-primary shadow h-100">
-                    <div class="card-body" style="padding: 0.95rem !important;">
-                      <div class="row no-gutters align-items-center">
-                        <div class="col ">
-                          <div class="font-weight-bold text-primary text-uppercase mb-1">Outros</div>
-                          <div class="h5 mb-0 font-weight-bold text-gray-800">11,63 / 7,75</div>
-                        </div>
-                        <div class="col-auto">
-                          <strong>R</strong> 10.322.428 <br>
-                          <strong>M</strong> 5.894.110 <br>
-                          <strong>A</strong> 150,00% <br>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                </div>                
               </div>
                   
-                  <!--main-->
-                    <!-- pricing plans -->
-                    <div class="pricing">
-                      <div class="w3l-pricing-grids">
-                        <div class="agileits-pricing-grid first">
-                          <div class="pricing_grid">
-                            <div class="wthree-pricing-info pricing-top blue-top">
-                              <h3>Consignado</h3>
-                              <p><span>11,63</span>/7,75</p>
-                            </div>
-                            <div class="pricing-bottom">
-                              <div class="pricing-bottom-bottom">
-                                <p><span class="fas fa-times"></span><span>Realizado</span> 10.322.428</p>
-                                <p><span class="fas fa-times"></span><span>Meta </span> 5.894.110</p>
-                                <p><span class="fas fa-times"></span><span>Atingido </span> 150,00%</p>                                  
-                              </div>                              
-                            </div>
-                          </div>
-                        </div>
-                        <div class="agileits-pricing-grid second">
-                          <div class="pricing_grid">
-                            <div class="wthree-pricing-info pricing-top blue-top">
-                              <h3>Popular</h3>
-                              <p>$<span>20</span>/month</p>
-                            </div>
-                            <div class="pricing-bottom">
-                              <div class="pricing-bottom-bottom blue-pricing-bottom-top">
-                                <p><span class="fas fa-check"></span><span>Training</span> Overview</p>
-                                <p><span class="fas fa-check"></span><span>Beginner </span> Classes</p>
-                                <p><span class="fas fa-times"></span><span>Personal </span> Training</p>  
-                                <p><span class="fas fa-times"></span><span>Olympic </span> weightlifting</p>
-                                <p class="text"><span class="fa fa-times"></span><span>Foundation</span> Training</p>
-                              </div>
-                              <div class="buy-button">
-                                <a class="popup-with-zoom-anim" href="#small-dialog">Buy Now</a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="agileits-pricing-grid third">
-                          <div class="pricing_grid">
-                            <div class="wthree-pricing-info pricing-top green-top">
-                              <h3>Golden</h3>
-                              <p>$<span>35</span>/month</p>
-                            </div>
-                            <div class="pricing-bottom">
-                              <div class="pricing-bottom-bottom green-pricing-bottom-top">
-                                <p><span class="fa fa-check"></span><span>Training</span> Overview</p>
-                                <p><span class="fa fa-check"></span><span>Beginner </span> Classes</p>
-                                <p><span class="fa fa-check"></span><span>Personal </span> Training</p>  
-                                <p><span class="fa fa-times"></span><span>Olympic </span> weightlifting</p>
-                                <p class="text"><span class="fa fa-times"></span><span>Foundation</span> Training</p>
-                              </div>
-                              <div class="buy-button">
-                                <a class="popup-with-zoom-anim" href="#small-dialog">Buy Now</a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        
-                        <div class="agileits-pricing-grid fourth">
-                          <div class="pricing_grid">
-                            <div class="wthree-pricing-info pricing-top yellow-top">
-                              <h3>Professional</h3>
-                              <p>$<span>50</span>/month</p>
-                            </div>
-                            <div class="pricing-bottom">
-                              <div class="pricing-bottom-bottom yellow-pricing-bottom-top">
-                                <p><span class="fa fa-check"></span><span>Training</span> Overview</p>
-                                <p><span class="fa fa-check"></span><span>Beginner </span> Classes</p>
-                                <p><span class="fa fa-check"></span><span>Personal </span> Training</p>  
-                                <p><span class="fa fa-check"></span><span>Olympic </span> weightlifting</p>
-                                <p class="text"><span class="fa fa-check"></span><span>Foundation</span> Training</p>
-                              </div>
-                              <div class="buy-button">
-                                <a class="popup-with-zoom-anim" href="#small-dialog">Buy Now</a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+                  
             </div>              
           </div>
 
-          
+          <!-- Color System -->
+          <div class="row">
+            <div class="col-lg-6 mb-4">
+              <div class="card bg-primary text-white shadow">
+                <div class="card-body">
+                  Primary
+                  <div class="text-white-50 small">#4e73df</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 mb-4">
+              <div class="card bg-success text-white shadow">
+                <div class="card-body">
+                  Success
+                  <div class="text-white-50 small">#1cc88a</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 mb-4">
+              <div class="card bg-info text-white shadow">
+                <div class="card-body">
+                  Info
+                  <div class="text-white-50 small">#36b9cc</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 mb-4">
+              <div class="card bg-warning text-white shadow">
+                <div class="card-body">
+                  Warning
+                  <div class="text-white-50 small">#f6c23e</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 mb-4">
+              <div class="card bg-danger text-white shadow">
+                <div class="card-body">
+                  Danger
+                  <div class="text-white-50 small">#e74a3b</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 mb-4">
+              <div class="card bg-secondary text-white shadow">
+                <div class="card-body">
+                  Secondary
+                  <div class="text-white-50 small">#858796</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+          <!-- Color System 2 -->
+          <div class="row">
+            <div class="col-lg-6 mb-4">
+              <div class="card text-white shadow blue-top">
+                <div class="card-body">
+                  Primary                  
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 mb-4">
+              <div class="card green-top text-white shadow">
+                <div class="card-body">
+                  Success                  
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 mb-4">
+              <div class="card text-white shadow" style="background: #18bc9c">
+                <div class="card-body">
+                  Success 2                  
+                </div>
+              </div>
+            </div>            
+            <div class="col-lg-6 mb-4">
+              <div class="card yellow-top text-white shadow">
+                <div class="card-body">
+                  Warning                  
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 mb-4">
+              <div class="card  text-white shadow" style="background: #f39c12;">
+                <div class="card-body">
+                  Warning 2                 
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 mb-4">
+              <div class="card text-white shadow" style="background: #e04646;">
+                <div class="card-body">
+                  Danger                  
+                </div>
+              </div>
+            </div>            
+          </div>
 
         </div>
         <!-- /.container-fluid -->
