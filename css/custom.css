@@ -8,6 +8,17 @@
   /*background: linear-gradient(275deg, rgba(116,191,2,1) 0%, rgba(84,140,137,1) 52%, rgba(33,124,171,1) 100%);*/
 }
 
+.sorriso{
+  transform: rotate(90deg); 
+  display: inline-block; 
+  vertical-align: middle;
+  font-family: initial;
+}
+
+.fundo{
+  background-color: #efefef !important;
+}
+
 .g_bg_primary {
   background: linear-gradient(45deg,#3949ab,#4fc3f7)!important;
 }
@@ -45,7 +56,9 @@
   color: white !important;
 }
 
-
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(13, 175, 236, 0.05)!important;
+}
 
 .ml-6 {
     margin-left: 3.5rem!important;
